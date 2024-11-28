@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../cadastro.css';
 
 const Cadastro = () => {
   const [nomeCompleto, setNomeCompleto] = useState('');

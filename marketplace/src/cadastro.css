@@ -1,0 +1,41 @@
+/* Estilos do Cadastro */
+body {
+    padding: 20px;
+    background-color: #ffffff; /* Fundo branco para a página de cadastro */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
+  }
+  
+ h2 {
+    color: #24292e; /* Cor do título */
+    font-size: 1.8em;
+    margin-bottom: 20px; /* Espaço abaixo do título */
+  }
+  
+ label {
+    display: block; /* Cada label em uma linha */
+    margin-bottom: 10px; /* Espaço abaixo de cada label */
+    color: #586069; /* Cor do texto */
+  }
+  
+  input, select {
+    width: 100%; /* Largura total do campo */
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #d1d5da; /* Borda dos campos */
+    border-radius: 4px; /* Bordas arredondadas */
+    margin-bottom: 15px; /* Espaço abaixo de cada campo */
+  }
+  
+ button {
+    background-color: #61dafb; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    border: none; /* Sem borda */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    font-size: 1em; /* Tamanho da fonte */
+  }
+  
+ button:hover {
+    background-color: #5bc0de; /* Cor do botão ao passar o mouse */
+  }
