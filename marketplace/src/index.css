@@ -1,3 +1,4 @@
+/* Estilos globais */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +6,118 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f6f8fa; /* Cor de fundo semelhante ao GitHub */
+  color: #24292e; /* Cor do texto padrão */
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  background-color: #f6f8fa; /* Fundo para código */
+  border: 1px solid #d1d5da; /* Borda para código */
+  border-radius: 3px;
+  padding: 0.2em 0.4em;
+}
+
+a {
+  color: #0366d6; /* Cor dos links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* Sublinha os links ao passar o mouse */
+}
+
+/* Estilos da App */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #24292e; /* Cor de fundo do cabeçalho */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb; /* Cor dos links */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Estilos da Navbar */
+.navbar {
+  background-color: #ffffff; /* Fundo branco para a barra de navegação */
+  border-bottom: 1px solid #e1e4e8; /* Borda inferior */
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px; /* Espaço entre os links */
+}
+
+.navbar li a {
+  color: #24292e; /* Cor dos links */
+  font-weight: bold;
+}
+
+.navbar li a:hover {
+  text-decoration: underline; /* Sublinha os links ao passar o mouse */
+}
+
+/* Estilos da Homepage */
+.homepage {
+  padding: 20px;
+}
+
+.homepage h1 {
+  color: #24292e; /* Cor do título */
+  font-size: 2em;
+}
+
+.homepage a {
+  color: #0366d6; /* Cor do link */
+}
+
+.homepage a:hover {
+  text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
+
+/* Estilos do Serviço */
+.servico {
+  padding: 20px;
+}
+
+.servico header {
+  font-size: 1.5em;
+  color: #24292e; /* Cor do cabeçalho */
+}
+
+.servico p {
+  color: #586069; /* Cor do texto */
 }
