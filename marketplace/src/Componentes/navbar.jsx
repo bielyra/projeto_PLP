@@ -6,13 +6,13 @@ function Navbar() {
       <nav className="navbar">
         <ul>
           <li>
-            <a href ="https://www.unipe.edu.br/aluno/" target="_blank" rel="noopener noreferrer">Home Page</a>
-          </li>
-          <li>
-            <a href ="https://www.unipe.edu.br/aluno/" target="_blank" rel="noopener noreferrer">Random Animal</a>
+             <Link to="/">Home</Link>
           </li>
           <li>
           <a href ="https://www.unipe.edu.br/aluno/" target="_blank" rel="noopener noreferrer">CU</a>
+          </li>
+          <li>
+          
           </li>
         </ul>
       </nav>

@@ -1,28 +1,9 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import Navbar from './Componentes/navbar';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <h1>
-        Mercado Mais Brabo Do Brasil
-      </h1>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Site de Serviços prestados por autônomos
-        </p>
-        <a
-          className="App-link"
-          href="https://chatgpt.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Saiba Mais 
-        </a>
-      </header>
     </div>
   );
 }
