@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './Componentes/navbar';
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <h1>
         Mercado Mais Brabo Do Brasil
       </h1>
