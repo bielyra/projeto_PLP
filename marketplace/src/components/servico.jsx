@@ -7,7 +7,7 @@ function Servico(){
                 Profissionais a Disposição
             </header>
             <p>
-                console.log('aqui vai ficar os manos')
+                
             </p>
         </div>
     );
