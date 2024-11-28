@@ -9,7 +9,7 @@ function Navbar() {
              <Link to="/">Home</Link>
           </li>
           <li>
-          <a href ="https://www.unipe.edu.br/aluno/" target="_blank" rel="noopener noreferrer">CU</a>
+          <Link to="/cadastro">About</Link>
           </li>
           <li>
           

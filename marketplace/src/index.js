@@ -8,6 +8,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './Componentes/navbar';
 import Homepage from './Componentes/Homepage'; // Componente Homepage já existente
+import Cadastro from './Componentes/Cadastro';
 
 
 const router = createBrowserRouter([
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <Homepage />,
       },
+      {
+        path: "/cadastro",
+        element: <Cadastro />,
+      }
     ]
   },
 ]);
