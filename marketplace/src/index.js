@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import Home from './components/homepage';
 import Navbar from './components/navbar';
 import Servico from './components/servico';
+import Cadastro from './components/cadastro';
 
 
 const router = createBrowserRouter([
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
         path: '/servico',
         element: <Servico />,
         },
+      {
+        path: '/cadastro',
+        element: <Cadastro />,
+        }
     ]},
   
   ]);

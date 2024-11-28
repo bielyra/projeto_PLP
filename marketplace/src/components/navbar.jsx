@@ -12,6 +12,9 @@ function Navbar(){
                 <li>
                     <Link to="/servico">Serviço</Link>
                 </li>
+                <li>
+                    <Link to="/cadastro">Cadastro</Link>
+                </li>
             </ul>
         </nav>
          <Outlet />
