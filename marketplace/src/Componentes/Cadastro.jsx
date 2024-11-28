@@ -18,12 +18,36 @@ const Cadastro = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Aqui você pode adicionar a lógica para enviar os dados do formulário
-    console.log('Dados do formulário:', formData);
+    
+    try {
+      const response = await fetch('http://localhost:5000/api/cadastro', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+  
+      if (response.ok) {
+        console.log('Usuário cadastrado com sucesso!');
+        // Aqui você pode adicionar lógica para limpar o formulário ou redirecionar
+        setFormData({
+          nome: '',
+          endereco: '',
+          cpf: '',
+          idade: '',
+          profissao: ''
+        });
+      } else {
+        console.error('Erro ao cadastrar usuário');
+      }
+    } catch (error) {
+      console.error('Erro ao enviar dados:', error);
+    }
   };
-
+  
   return (
     <div>
       <h2>Cadastro</h2>
